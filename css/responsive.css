@@ -1,0 +1,86 @@
+@media screen and (max-width: 990px) {
+  .nav-link {
+    display: none;
+  }
+  .nav-link-m {
+    display: block;
+  }
+  .nav-link-exp {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link {
+    display: none;
+  }
+  .nav-link-exp {
+    display: block;
+  }
+  .nav-link-m {
+    display: block;
+  }
+  .my-image {
+    width: 300px;
+  }
+  .name {
+    line-height: 40px !important;
+    font-size: 4rem;
+  }
+  .home-mt {
+    margin-top: -200px;
+  }
+  .skill-bar {
+    width: 100% !important;
+    margin: 0;
+  }
+  .my-image {
+    margin-top: 5rem;
+  }
+  .mixit-sec {
+    text-align: center;
+  }
+  .mcard-body {
+    margin: 30px auto !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .nav-link-m {
+    display: block;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  .r-left {
+    width: 50%;
+    float: left;
+  }
+  .r-exprience {
+    width: 40%;
+    float: right;
+  }
+  .b-year {
+    margin-bottom: 120px !important;
+  }
+}
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 9px !important;
+  }
+  .carousel-img {
+    left: 36% !important;
+  }
+  .carousel-inner {
+    height: 300px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 8px !important;
+  }
+  .carousel-img {
+    top: 0 !important;
+    left: 33% !important;
+  }
+}

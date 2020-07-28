@@ -1,0 +1,24 @@
+@keyframes mymove {
+  from {
+    left: 3rem;
+  }
+  to {
+    left: 88%;
+  }
+}
+@keyframes mymove2 {
+  from {
+    left: 3rem;
+  }
+  to {
+    left: 83%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 4rem;
+  }
+}
