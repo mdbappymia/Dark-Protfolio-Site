@@ -741,9 +741,9 @@ a:hover {
 }
 .footer-section {
   background-color: #202020;
-  padding: 1.6rem 0;
+  padding-top: 1.6rem;
   color: #909090;
-  margin-bottom: 100rem;
+  padding-bottom: 30rem;
 }
 .footer-t {
   font-size: 1.3rem;
