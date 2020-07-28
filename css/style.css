@@ -362,6 +362,7 @@ a:hover {
 }
 .image1-area img {
   transition: 0.3s all;
+  width: 100%;
   -webkit-transition: 0.3s all;
   -moz-transition: 0.3s all;
   -ms-transition: 0.3s all;
@@ -742,6 +743,7 @@ a:hover {
   background-color: #202020;
   padding: 1.6rem 0;
   color: #909090;
+  margin-bottom: 100rem;
 }
 .footer-t {
   font-size: 1.3rem;
