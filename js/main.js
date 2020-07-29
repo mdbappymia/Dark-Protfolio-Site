@@ -203,7 +203,7 @@ sr.reveal('.myservice-section');
 sr.reveal('.blog-section');
 sr.reveal('.contact-section');
 sr.reveal('.footer-section');
-sr.reveal('.footer-section');
+sr.reveal('.testmonial-section');
 /**about*/
 /**protfolio*/
 /**service*/
