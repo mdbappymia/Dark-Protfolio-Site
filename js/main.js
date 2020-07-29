@@ -182,3 +182,30 @@ $(window).scroll(function () { // Says this function is preformed continuisly wh
 
     }
 });
+
+
+
+/*Scroll Reveal Animation*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+})
+
+/**home*/
+sr.reveal('.home-mt');
+sr.reveal('.my-image', { delay: 400 });
+sr.reveal('.about-section');
+sr.reveal('.exprience-section');
+sr.reveal('.protfolio-section');
+sr.reveal('.myservice-section');
+sr.reveal('.blog-section');
+sr.reveal('.contact-section');
+sr.reveal('.footer-section');
+sr.reveal('.footer-section');
+/**about*/
+/**protfolio*/
+/**service*/
+/**blog*/
+/**contact*/
