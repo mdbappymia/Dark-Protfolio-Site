@@ -13,6 +13,10 @@ body {
   overflow-x: hidden;
   background-color: #3b3b3b;
 }
+.nav-link-exp {
+  z-index: 9999999999999999999999999999;
+  cursor: pointer;
+}
 .container {
   padding: 0 !important;
 }
@@ -41,6 +45,7 @@ a:hover {
   -ms-transition: ease-in-out 0.3s;
   -o-transition: ease-in-out 0.3s;
 }
+
 .nav-link-m {
   padding: 1rem;
   border-top: 1px solid #6d6d6d;

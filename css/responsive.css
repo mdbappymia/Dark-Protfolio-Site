@@ -51,6 +51,9 @@
   .b-year {
     margin-bottom: 100px !important;
   }
+  .mt-50 {
+    margin-top: 80px;
+  }
 }
 @media screen and (max-width: 576px) {
   .nav-link-m {
