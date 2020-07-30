@@ -1,3 +1,8 @@
+@media screen and (max-width: 1025px) {
+  .b-year {
+    margin-bottom: 45px !important;
+  }
+}
 @media screen and (max-width: 990px) {
   .nav-link {
     display: none;
@@ -43,6 +48,9 @@
   .mcard-body {
     margin: 30px auto !important;
   }
+  .b-year {
+    margin-bottom: 100px !important;
+  }
 }
 @media screen and (max-width: 576px) {
   .nav-link-m {
@@ -60,8 +68,28 @@
     width: 40%;
     float: right;
   }
-  .b-year {
-    margin-bottom: 120px !important;
+  .fendonus {
+    padding-top: 5rem !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .nav-link-m {
+    display: block;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  .r-left {
+    width: 50%;
+    float: left;
+  }
+  .r-exprience {
+    width: 40%;
+    float: right;
+  }
+  .fendonus {
+    padding-top: 31rem !important;
   }
 }
 @media screen and (max-width: 420px) {

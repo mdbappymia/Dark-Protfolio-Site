@@ -2,10 +2,10 @@
 
 
 
+/**Start bar */
 
 
-
-$('#bar1,#bar3').barfiller({
+$('#bar1').barfiller({
 
     // color of bar
     barColor: '#16b597',
@@ -41,6 +41,65 @@ $('#bar2').barfiller({
     symbol: "%"
 
 });
+$('#bar3').barfiller({
+
+    // color of bar
+    barColor: '#16b597',
+
+    // shows a tooltip
+    tooltip: true,
+
+    // duration in ms
+    duration: 2000,
+
+    // re-animate on resize
+    animateOnResize: true,
+
+    // custom symbol
+    symbol: "%"
+
+});
+$('#bar4').barfiller({
+
+    // color of bar
+    barColor: '#16b597',
+
+    // shows a tooltip
+    tooltip: true,
+
+    // duration in ms
+    duration: 2000,
+
+    // re-animate on resize
+    animateOnResize: true,
+
+    // custom symbol
+    symbol: "%"
+
+});
+$('#bar5').barfiller({
+
+    // color of bar
+    barColor: '#16b597',
+
+    // shows a tooltip
+    tooltip: true,
+
+    // duration in ms
+    duration: 2000,
+
+    // re-animate on resize
+    animateOnResize: true,
+
+    // custom symbol
+    symbol: "%"
+
+});
+
+
+
+
+/**end bar */
 $('.test-popup-link').magnificPopup({
     type: 'image'
     // other options
@@ -189,23 +248,50 @@ $(window).scroll(function () { // Says this function is preformed continuisly wh
 const sr = ScrollReveal({
     origin: 'top',
     distance: '80px',
-    duration: 2000,
+    duration: 1000,
     reset: true
 })
 
 /**home*/
-sr.reveal('.home-mt');
+sr.reveal('.name-d');
+sr.reveal('.name', { delay: 200 });
+sr.reveal('.h-description', { delay: 300 });
 sr.reveal('.my-image', { delay: 400 });
-sr.reveal('.about-section');
-sr.reveal('.exprience-section');
-sr.reveal('.protfolio-section');
-sr.reveal('.myservice-section');
-sr.reveal('.blog-section');
-sr.reveal('.contact-section');
-sr.reveal('.footer-section');
-sr.reveal('.testmonial-section');
+sr.reveal('.social-i-link', { interval: 300 });
+
 /**about*/
+sr.reveal('.about-heading', { delay: 200 });
+sr.reveal('.horigontal-line');
+sr.reveal('.a-left-part');
+sr.reveal('.skill-bar', { interval: 200 });
+
+/**exprience*/
+sr.reveal('.e-half-part', { interval: 200 });
+sr.reveal('.r-left');
+
 /**protfolio*/
+sr.reveal('.mix-item', { interval: 200 });
+sr.reveal('.mix-1', { delay: 50 });
+sr.reveal('.mix-2', { delay: 100 });
+sr.reveal('.mix-3', { delay: 150 });
+sr.reveal('.mix-4', { delay: 200 });
+sr.reveal('.mix-5', { delay: 250 });
+sr.reveal('.mix-6', { delay: 300 });
+sr.reveal('.mix-7', { delay: 350 });
+
 /**service*/
+sr.reveal('.mcard-body', { interval: 200 });
+
+/**Testmonial */
+sr.reveal('.carousel-inner');
+sr.reveal('.carousel-body');
+sr.reveal('.carousel-indicators');
+
 /**blog*/
+sr.reveal('.b-card', { interval: 300 });
+
 /**contact*/
+sr.reveal('.get-in-heading');
+sr.reveal('.left-con', { delay: 200 });
+sr.reveal('.c-name', { interval: 200 });
+sr.reveal('.right-contact');

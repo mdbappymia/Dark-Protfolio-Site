@@ -250,7 +250,7 @@ a:hover {
   position: absolute;
   top: -0.7rem;
   border: 0.4rem solid rgb(117, 121, 117);
-  left: 88%;
+  left: 83%;
   height: 2.2rem;
   background-color: #fff;
   box-shadow: 0.5rem;
@@ -260,10 +260,25 @@ a:hover {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-animation: 1.8s linear mymove;
+  -webkit-animation: 1.8s linear mymove1;
 }
 .circle-2 {
-  left: 83% !important;
+  left: 68% !important;
+  animation: 1.8s linear mymove2;
+  -webkit-animation: 1.8s linear mymove2;
+}
+.circle-3 {
+  left: 78% !important;
+  animation: 1.8s linear mymove3;
+  -webkit-animation: 1.8s linear mymove3;
+}
+.circle-4 {
+  left: 68% !important;
+  animation: 1.8s linear mymove2;
+  -webkit-animation: 1.8s linear mymove2;
+}
+.circle-5 {
+  left: 73% !important;
   animation: 1.8s linear mymove2;
   -webkit-animation: 1.8s linear mymove2;
 }
@@ -774,4 +789,35 @@ a:hover {
 }
 .sticky-btn {
   display: block;
+}
+
+/*home section added social link*/
+.social-icon-h ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.social-icon-h ul li:first-child {
+  margin-left: 0;
+}
+.social-icon-h ul {
+  padding: 2rem 0;
+}
+.social-icon-h ul:first-child {
+  padding-left: 0;
+}
+.social-icon-h ul li a {
+  font-size: 2.5rem;
+  padding: 1rem;
+  transition: ease-in-out 0.3s;
+  -webkit-transition: ease-in-out 0.3s;
+  -moz-transition: ease-in-out 0.3s;
+  -ms-transition: ease-in-out 0.3s;
+  -o-transition: ease-in-out 0.3s;
+}
+.social-icon-h ul li a:hover {
+  color: chartreuse;
+}
+.fendonus {
+  padding-top: 12rem;
 }
