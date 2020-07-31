@@ -14,6 +14,16 @@
     display: block;
   }
 }
+@media screen and (width: 823px) {
+  .fendonus {
+    padding-top: 17rem !important;
+  }
+}
+@media screen and (width: 812px) {
+  .fendonus {
+    padding-top: 17.5rem !important;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .nav-link {
@@ -55,6 +65,12 @@
     margin-top: 80px;
   }
 }
+@media screen and (width: 768px) {
+  .fendonus {
+    padding-top: 19rem !important;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .nav-link-m {
     display: block;
@@ -73,6 +89,11 @@
   }
   .fendonus {
     padding-top: 5rem !important;
+  }
+}
+@media screen and (max-width: 568px) {
+  .fendonus {
+    padding-top: 32rem !important;
   }
 }
 @media screen and (max-width: 480px) {
@@ -95,6 +116,7 @@
     padding-top: 31rem !important;
   }
 }
+
 @media screen and (max-width: 420px) {
   html {
     font-size: 9px !important;
@@ -105,6 +127,20 @@
   .carousel-inner {
     height: 300px !important;
   }
+  .fendonus {
+    padding-top: 38rem !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  .fendonus {
+    padding-top: 38rem !important;
+  }
+}
+
+@media screen and (width: 375px) {
+  .fendonus {
+    padding-top: 40rem !important;
+  }
 }
 @media screen and (max-width: 360px) {
   html {
@@ -113,5 +149,13 @@
   .carousel-img {
     top: 0 !important;
     left: 33% !important;
+  }
+  .fendonus {
+    padding-top: 38rem !important;
+  }
+}
+@media screen and (width: 320px) {
+  .fendonus {
+    padding-top: 46rem !important;
   }
 }
