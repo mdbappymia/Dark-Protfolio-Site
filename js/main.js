@@ -130,12 +130,12 @@ $('.js-waypoints').waypoint(function (direction) {
     if (direction == 'down') {
         $('.nav ').addClass('sticky');
         $('.up-btn').addClass('sticky-btn')
+
     }
     if (direction == 'up') {
         $('.nav').removeClass('sticky');
         $('.up-btn').removeClass('sticky-btn')
     }
-
 
 })
 
@@ -162,13 +162,6 @@ $('.smooth-scroll a[href*="#"]:not([href="#"])').click(function () {
         }
     }
 });
-
-
-
-
-
-
-
 
 
 
@@ -260,7 +253,7 @@ sr.reveal('.my-image', { delay: 400 });
 sr.reveal('.social-i-link', { interval: 300 });
 
 /**about*/
-sr.reveal('.about-heading', { delay: 200 });
+sr.reveal('.abour-h');
 sr.reveal('.horigontal-line');
 sr.reveal('.a-left-part');
 sr.reveal('.skill-bar', { interval: 200 });
@@ -295,3 +288,4 @@ sr.reveal('.get-in-heading');
 sr.reveal('.left-con', { delay: 200 });
 sr.reveal('.c-name', { interval: 200 });
 sr.reveal('.right-contact');
+
