@@ -393,7 +393,7 @@ a:hover {
 .overlay {
   display: none;
   position: absolute;
-  background-color: rgba(68, 67, 67, 0.582);
+  background-color: rgba(53, 52, 52, 0.582);
   width: 100%;
   height: 100%;
   top: 0;
@@ -434,13 +434,16 @@ a:hover {
   -o-border-radius: 50%;
 }
 .icon a {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #fff;
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
   -o-transition: 0.5s all;
+}
+.icon a:hover {
+  color: rgb(18, 97, 161);
 }
 .image1-area:hover img {
   transform: scale(1.2);
@@ -467,7 +470,7 @@ a:hover {
 }
 .image-description {
   position: absolute;
-  bottom: 4rem;
+  bottom: 3rem;
   left: 3rem;
   transition: 0.4s;
   animation: fadeIn linear 0.3s;

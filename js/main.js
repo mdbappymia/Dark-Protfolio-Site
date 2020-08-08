@@ -263,14 +263,8 @@ sr.reveal('.e-half-part', { interval: 200 });
 sr.reveal('.r-left');
 
 /**protfolio*/
-sr.reveal('.mix-item', { interval: 200 });
-sr.reveal('.mix-1', { delay: 50 });
-sr.reveal('.mix-2', { delay: 100 });
-sr.reveal('.mix-3', { delay: 150 });
-sr.reveal('.mix-4', { delay: 200 });
-sr.reveal('.mix-5', { delay: 250 });
-sr.reveal('.mix-6', { delay: 300 });
-sr.reveal('.mix-7', { delay: 350 });
+sr.reveal('.mixit-sec');
+
 
 /**service*/
 sr.reveal('.mcard-body', { interval: 200 });
