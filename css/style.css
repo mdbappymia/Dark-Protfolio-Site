@@ -485,6 +485,7 @@ a:hover {
 }
 .image-description span {
   display: block;
+  color: #bfbfbf;
   text-align-last: left;
   font-size: 1.4rem;
   margin-top: -1rem;
